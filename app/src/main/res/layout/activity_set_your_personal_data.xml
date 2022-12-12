@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SetYourPersonalDataActivity">
+
+
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:background="#0B4C80"
+        android:text="Submit your data !"
+        app:backgroundTint="#0B4C80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="299dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:text="Personal Data"
+        android:textAlignment="center"
+        android:textColor="#0B4C80"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="318dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorLink="#0B4C80"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Surname"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorLink="#0B4C80"
+                tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Gender"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorLink="#0B4C80"
+                tools:ignore="SpeakableTextPresentCheck" />
+</com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorLink="#0B4C80"
+                tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

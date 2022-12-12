@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myfitv2">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFitV2"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.ShowFriendsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ShowAllWorkouts"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.WorkoutMenuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_workout_menu"
+            android:theme="@style/Theme.MyFitV2.NoActionBar" />
+        <activity
+            android:name=".Activities.MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SetYourPersonalDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ShowAllExercises"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

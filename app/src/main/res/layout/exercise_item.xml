@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/exerciseFragmentBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="6dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/E"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:text="Exercise : "
+                android:textColor="#0B4C80"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tvExercise"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="holder"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/changeButton1"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                app:backgroundTint="#0B4C80" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:text="Series :"
+                android:textColor="#0B4C80"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tvSeries"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="holder"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/changeButton2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Change"
+                app:backgroundTint="#0B4C80" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:text="Reps :"
+                android:textColor="#0B4C80"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tvReps"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:clickable="true"
+                android:text="holder"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/changeButton3"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Change"
+                app:backgroundTint="#0B4C80" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:text="Starting weight : "
+                android:textColor="#0B4C80"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tvStart"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:text="holder"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/changeButton4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Change"
+                app:backgroundTint="#0B4C80" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:text="Max weight : "
+                android:textColor="#0B4C80"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tvMax"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:text="holder"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/changeButton5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Change"
+                app:backgroundTint="#0B4C80" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            app:backgroundTint="#0B4C80" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorControlNormal">@color/this_grey</item>
+    </style>
+
+    <style name="ButtonTheme" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorPrimary">@color/this_green</item>
+    </style>
+
+</resources>

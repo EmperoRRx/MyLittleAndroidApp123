@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyFitV2</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="not_register_yet">Not register yet ?</string>
+    <string name="register_here_">Register here !</string>
+    <string name="register_">Register</string>
+    <string name="register">Register</string>
+    <string name="already_registered">Already registered ?</string>
+    <string name="login_here">Login here !</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_workout_menu">WorkoutMenuActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="activity_title_view"></string>
+    <string name="subtitle"></string>
+    <string name="calendar_title">Open my Calendar</string>
+    <string name="my_subtitle"></string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="input_dialog_title">Enter event title</string>
+    <string name="empty_input_text">Text is empty</string>
+    <string name="dialog_delete_confirmation">Delete this event?</string>
+    <string name="delete">Delete</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="clear">Clear</string>
+    <string name="week_mode">Week mode</string>
+</resources>

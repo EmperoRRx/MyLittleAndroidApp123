@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "635035658452",
+    "firebase_url": "https://myfitv3-760b1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "myfitv3-760b1",
+    "storage_bucket": "myfitv3-760b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635035658452:android:20910fe44b38f0697af341",
+        "android_client_info": {
+          "package_name": "com.example.myfitv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635035658452-ndkgueukpto2k19vq0i110h7oebbsf14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFrddh-IX-rbbXQHK8sHd38FGbJ_Gtbnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635035658452-ndkgueukpto2k19vq0i110h7oebbsf14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
